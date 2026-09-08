@@ -1,0 +1,87 @@
+.projects {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #ffffff;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.projects--inner {
+  max-width: 960px;
+  width: 100%;
+}
+
+.projects--title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #111827;
+  margin: 0 0 2.5rem 0;
+  text-align: center;
+}
+
+.projects--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.projects--card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects--card h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 0.5rem 0;
+}
+
+.projects--stack {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6b7280;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.75rem 0;
+}
+
+.projects--card p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #374151;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+.projects--links {
+  display: flex;
+  gap: 1rem;
+}
+
+.projects--links a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.projects--links a:hover {
+  border-bottom-color: #2563eb;
+}
